@@ -77,21 +77,7 @@
 
 ---
 
-## GitHub Workflow
 
-- **Branches:**
-    - `main` – working releases (tags: v0.1, v1.0)
-    - `feature/mergesort`, `feature/quicksort`, `feature/select`, `feature/closest`, `feature/metrics`
-
-- **Commit storyline:**
-    - `init` – Maven, JUnit5, README
-    - `feat(metrics)` – counters, depth tracker
-    - `feat(mergesort)` – baseline + buffer + cutoff + tests
-    - `feat(quicksort)` – smaller-first recursion, randomized pivot + tests
-    - `feat(select)` – deterministic select (MoM5) + tests
-    - `feat(closest)` – divide-and-conquer + tests
-    - `docs(report)` – metrics, analysis, plots
-    - `release v1.0` – final submission
 
 ---
 
