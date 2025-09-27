@@ -1,7 +1,7 @@
 # Divide and Conquer Algorithms Project
 
-**Due Date:** Monday, 29 September 2025, 12:00 AM  
-**Author:** Your Name
+
+
 
 ---
 
