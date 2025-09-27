@@ -1,0 +1,70 @@
+= ALGORITHM ANALYSIS =
+
+1. MergeSort
+----------------------
+Execution time (ns):
+n=100: 128500
+n=1000: 2159300
+n=5000: 2652200
+
+Recursion depth:
+n=100: 8
+n=1000: 11
+n=5000: 14
+
+Number of comparisons:
+n=100: 537
+n=1000: 8710
+n=5000: 55202
+
+2. QuickSort
+----------------------
+Execution time (ns):
+n=100: 214700
+n=1000: 846500
+n=5000: 1825300
+
+Recursion depth:
+n=100: 5
+n=1000: 7
+n=5000: 9
+
+Number of comparisons:
+n=100: 752
+n=1000: 10452
+n=5000: 70868
+
+3. DeterministicSelect
+----------------------
+Execution time (ns):
+n=100: 805900
+n=1000: 4013900
+n=5000: 6757200
+
+Selected median value:
+n=100: 50639
+n=1000: 50072
+n=5000: 50718
+
+4. ClosestPair
+----------------------
+Execution time (ns):
+n=100: 972900
+n=1000: 6626100
+n=5000: 14522300
+
+Recursion depth:
+n=100: 6
+n=1000: 9
+n=5000: 12
+
+Number of comparisons:
+n=100: 134
+n=1000: 1747
+n=5000: 6734
+
+=CONCLUSIONS =
+- MergeSort and QuickSort grow roughly as O(n log n)
+- QuickSort is faster than MergeSort for larger n in these tests
+- DeterministicSelect is slower for large n, but selects the k-th element correctly
+- ClosestPair grows quickly with n; recursion depth is moderate, but the number of comparisons increases
